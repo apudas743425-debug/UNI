@@ -1,0 +1,107 @@
+:root {
+  --main-white: #ffffff;
+  --main-black: #000000;
+  --main-orange: #ff5c2a;
+  --main-gray: #8e8d87;
+  --main-light-orange: #e6a83e;
+  --main-deep-orange: #f84007;
+  --main-light-gray: #e0d8d8;
+  --main-light-1-gray: #d9d9d9;
+  --main-light-2-gray: #f1eee3;
+  --main-light-skin: #c8b8b8;
+  --main-blue: #466bf3;
+  --main-yellow: #fffc34;
+
+  --font-lexend: "LexendDeca", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+@font-face {
+  font-family: "LexendDeca";
+  src: url("fonts/lexend-deca/LexendDecaRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ── CONTAINER ── */
+.custom-container {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  font-family: var(--font-lexend);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body{
+  overflow-x: hidden;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+  /* NAV BTN */
+  .nav-btn {
+  display: inline-block;
+  background: var(--main-orange);
+  color: var(--main-white);
+  padding: 10px 20px;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.nav-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--main-black);
+  transform: translateY(-100%);
+  transition: transform 0.5s ease;
+  z-index: -1;
+}
+
+.nav-btn:hover::before {
+  transform: translateY(0);
+}
+
+.nav-btn:hover {
+  color: var(--main-white);
+}
+
+
+/* banner */
+
+.banner {
+  width: 100%;
+  min-height: 650px;
+  background: url("images/BANNER (1).png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}

@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="about.css" />
+    <title>About Us</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="bg-white shadow-md py-4">
+        <div class="container mx-auto px-6 flex items-center justify-between">
+          <!-- Logo -->
+          <div class="logo">
+            <a href="#">
+              <img
+                src="images/LOGO (1).png"
+                alt=""
+                class="w-[98px] h-auto"
+                loading="lazy"
+              />
+            </a>
+          </div>
+
+          <!-- Desktop Nav -->
+          <ul class="hidden lg:flex gap-8 font-medium whitespace-nowrap">
+            <li><a href="index.html" class="hover:text-orange-600">HOME</a></li>
+            <li>
+              <a href="about.html" target="_blank" class="hover:text-orange-600"
+                >ABOUT US</a
+              >
+            </li>
+            <li>
+              <a
+                href="courses.html"
+                target="_blank"
+                class="hover:text-orange-600"
+                >COURSES</a
+              >
+            </li>
+            <li><a href="#" class="hover:text-orange-600">INSTRUCTORS</a></li>
+            <li><a href="contact.html" class="hover:text-orange-600">CONTACT US</a></li>
+          </ul>
+
+          <!-- Desktop Button -->
+          <div class="hidden lg:flex">
+            <a href="#" class="nav-btn"> Get In Touch </a>
+          </div>
+
+          <!-- Hamburger -->
+          <button id="navbar-toggle" class="lg:hidden text-2xl">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-navbar" class="hidden fixed inset-0 bg-black/50 z-50">
+        <div
+          id="navbar-slide"
+          class="w-64 h-full bg-white p-6 -translate-x-full transition-transform duration-300"
+        >
+          <ul class="flex flex-col gap-6 font-bold">
+            <li><a href="index.html" class="hover:text-orange-600">HOME</a></li>
+            <li>
+              <a href="about.html" target="_blank" class="hover:text-orange-600"
+                >ABOUT US</a
+              >
+            </li>
+            <li><a href="#" class="hover:text-orange-600">COURSES</a></li>
+            <li><a href="#" class="hover:text-orange-600">INSTRUCTORS</a></li>
+            <li><a href="#" class="hover:text-orange-600">CONTACT US</a></li>
+            <li>
+              <a
+                href="#"
+                class="inline-block bg-orange-500 text-white px-5 py-2 rounded-lg"
+              >
+                Get In Touch
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- BANNER HEADING -->
+
+    <section class="banner-heading">
+      <div class="custom-container">
+        <div class="py-[60px]"></div>
+        <p class="text-xl tracking-wider text-black mb-3">
+          Empowering learners worldwide
+        </p>
+        <h1
+          class="text-[30px] sm:text-[40px] md:text-[45px] lg:text-[57px] font-bold text-black leading-tight max-w-[800px]"
+        >
+          We provide high-quality online education
+        </h1>
+      </div>
+    </section>
+
+    <!-- BANNER -->
+
+    <section class="py-20">
+      <div class="custom-container">
+        <!-- Top Text -->
+        <div class="flex flex-col md:flex-row gap-13 mb-14">
+          <div class="w-full md:w-1/2">
+            <p class="text-[14px] sm:text-[15px] text-gray-600 md:text-base leading-7 md:leading-loose tracking-normal md:tracking-wider">
+              Uni is a leading provider of online courses and educational
+              resources, dedicated to empowering learners worldwide. Our mission
+              is to make quality education accessible to everyone, regardless of
+              their background or location.
+            </p>
+          </div>
+
+          <div class="w-full md:w-1/2">
+            <p class="text-[14px] sm:text-[15px] text-gray-600 md:text-base leading-7 md:leading-loose tracking-normal md:tracking-wider">
+              Founded in 2020, Uni began as a small startup with a vision to
+              revolutionize online learning. Over the years, we have expanded
+              our course offerings and built partnership with industry experts
+              to provide top-notch educational content.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <img src="images/Frame 203.png" alt="About" class="w-full" />
+        </div>
+      </div>
+    </section>
+
+    <!-- courses section -->
+
+    <section class="py-20">
+      <div class="custom-container">
+        <!-- Heading -->
+        <div class="text-center mb-14">
+          <p class="uppercase text-base leading-tight font-bold mb-4">
+            Empowering your learning
+          </p>
+          <h2
+            class="text-[30px] sm:text-[38px] md:text-[45px] lg:text-[57px] mx-auto font-semibold max-w-[600px] leading-tight text-center"
+          >
+            We craft unique courses for you
+          </h2>
+        </div>
+
+        <div class="flex flex-col lg:flex-row gap-8">
+          <!-- Left Image -->
+          <div class="w-full lg:w-[50%]">
+            <img src="images/Frame 205.png" alt="" class="w-full" />
+          </div>
+
+          <!-- Right Cards -->
+          <div class="w-full lg:w-[50%] grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <!-- Card 1 -->
+            <div class="border border-orange-400 rounded-lg p-6">
+              <img src="images/data 2.png" alt="" class="w-12 mb-16" />
+              <h3 class="text-[35px] font-semibold mb-3">Coding</h3>
+              <p class="text-gray-500 text-base leading-7">
+                Learn to code and build real digital solutions.
+              </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="border border-orange-300 rounded-lg p-6">
+              <img src="images/data 2 (2).png" alt="" class="w-12 mb-16" />
+              <h3 class="text-[35px] font-semibold mb-3">Bachelor's</h3>
+              <p class="text-gray-500 text-base leading-7">
+                Build skills for a future-ready career.
+              </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="border border-orange-300 rounded-lg p-6">
+              <img src="images/data 1.png" alt="" class="w-12 mb-16" />
+              <h3 class="text-[35px] font-semibold mb-3">Art & design</h3>
+              <p class="text-gray-500 text-base leading-7">
+                Design creatively, illustrate clearly, and innovate fearlessly.
+              </p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="border border-orange-300 rounded-lg p-6">
+              <img src="images/data 2 (1).png" alt="" class="w-12 mb-16" />
+              <h3 class="text-[35px] font-semibold mb-3">Languages</h3>
+              <p class="text-gray-500 text-base leading-7">
+                Master global languages with real-world practice.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- online courses -->
+
+    <section class="bg-black py-20">
+      <div class="custom-container">
+        <!-- Heading -->
+        <div class="max-w-[977px] mx-auto mb-16">
+          <h2
+            class="text-white text-3xl sm:text-4xl md:text-5xl lg:text-[57px] font-semibold leading-tight"
+          >
+            Empowering learners everywhere,
+            <span class="text-yellow-400">impactful online courses,</span>
+            enhanced experiences
+          </h2>
+
+          <p class="text-gray-400 max-w-[638px] text-base mt-6 leading-7">
+            Uni is dedicated to providing accessible, high-quality online
+            education, ensuring our courses are engaging, effective, and
+            tailored to meet the diverse needs of learners worldwide.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <!-- Left Image -->
+          <div>
+            <img
+              src="images/Frame 103.png"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </div>
+
+          <!-- Middle Card -->
+          <div class="bg-[#222222] p-8 flex flex-col justify-between">
+            <h3 class="text-white text-[25px] font-semibold">
+              Uni is dedicated to empowering learners through accessible online
+              education.
+            </h3>
+            <button class="read-btn w-fit">Read More</button>
+          </div>
+
+          <!-- Right Cards -->
+          <div class="flex flex-col gap-11">
+            <!-- Card 1 -->
+            <div class="bg-[#F1EEE3] p-10">
+              <h2 class="text-[50px] font-bold">3x</h2>
+              <div class="mt-20">
+                <h3 class="text-2xl font-semibold mb-2">Expert Team</h3>
+                <p class="text-gray-500 text-[15px]">
+                  Professionals in education, technology, and support.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-[#F1EEE3] p-10">
+              <h2 class="text-[50px] font-bold">5x</h2>
+              <div class="mt-20">
+                <h3 class="text-2xl font-semibold mb-2">Mission & Vision</h3>
+                <p class="text-gray-500 text-[15px]">
+                  Empowering learners through accessible education.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OPTION -->
+
+    <section class="bg-[#FF5C2A] py-6 overflow-hidden">
+      <div class="max-w-[1350px] mx-auto px-4">
+        <ul class="flex flex-wrap lg:flex-nowrap items-center justify-center lg:justify-between gap-x-4 gap-y-3 text-white">
+          <li class="text-[18px] lg:text-[27px]">Education</li>
+          <img src="images/.svg" class="w-4 h-4 lg:w-5 lg:h-5" alt="" alt="" />
+
+          <li class="text-[18px] lg:text-[27px]">Learning</li>
+          <img src="images/.svg" class="w-4 h-4 lg:w-5 lg:h-5" alt="" />
+
+          <li class="text-[18px] lg:text-[27px]">Courses</li>
+          <img src="images/.svg" class="w-4 h-4 lg:w-5 lg:h-5" alt="" />
+
+          <li class="text-[18px] lg:text-[27px]">Online</li>
+          <img src="images/.svg" class="w-4 h-4 lg:w-5 lg:h-5" alt="" />
+
+          <li class="text-[18px] lg:text-[27px]">Elearning</li>
+          <img src="images/.svg" class="w-4 h-4 lg:w-5 lg:h-5" alt="" />
+
+          <li class="text-[18px] lg:text-[27px]">Figma</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- OUR TEAM -->
+
+    <section class="bg-[#ffffff] py-20">
+      <div class="custom-container">
+        <div class="flex flex-col lg:flex-row gap-10">
+          <!-- left heading -->
+          <div class="w-full lg:w-[40%] flex items-center">
+            <div class="flex flex-col">
+              <h2 class="text-[30px] sm:text-[38px] md:text-[45px] lg:text-[57px] font-bold text-center lg:text-left">
+                Our Team
+              </h2>
+              <p class="text-[16px] sm:text-[18px] lg:text-[21px] max-w-[600px] text-center lg:text-left">
+                We’re 120+ individuals from around the globe driven by bold
+                ideas
+              </p>
+            </div>
+          </div>
+          <div class="w-full lg:w-[60%] grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <div class=" overflow-hidden">
+              <img
+                src="images/Frame 151.png"
+                class="w-full object-cover transition-all duration-500 ease-in-all hover:scale-105"
+                alt=""
+              />
+              <h4 class="text-[19px] mt-6">James Robinson</h4>
+              <p class="text-[15px] text-[#8E8D87]">Business Development</p>
+            </div>
+
+            <div class="overflow-hidden">
+              <img
+                src="images/Frame 151 (1).png"
+                class="w-full object-cover transition-all duration-500 ease-in-all hover:scale-105"
+                alt=""
+              />
+              <h4 class="text-[19px] mt-6">Emily Carter</h4>
+              <p class="text-[15px] text-[#8E8D87]">Strategy Consultant</p>
+            </div>
+
+            <div class="overflow-hidden">
+              <img
+                src="images/Frame 151 (2).png"
+                class="w-full object-cover transition-all duration-500 ease-in-all hover:scale-105"
+                alt=""
+              />
+              <h4 class="text-[19px] mt-6">Maria Bennett</h4>
+              <p class="text-[15px] text-[#8E8D87]">Digital Marketing</p>
+            </div>
+
+            <div class="overflow-hidden">
+              <img
+                src="images/Frame 151 (3).png"
+                class="w-full object-cover transition-all duration-500 ease-in-all hover:scale-105"
+                alt=""
+              />
+              <h4 class="text-[19px] mt-6">Sophia Lee</h4>
+              <p class="text-[15px] text-[#8E8D87]">Software Specialist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIGN UP FORM -->
+
+    <section class="bg-[#FFD92E] py-20">
+      <div class="custom-container">
+        <div
+          class="flex flex-col lg:flex-row items-center justify-between gap-10"
+        >
+          <!-- Left Content -->
+          <div class="w-full lg:w-[45%]">
+            <h2
+              class="text-[28px] sm:text-[34px] md:text-[40px] lg:text-[47px] max-w-[500px] font-semibold leading-tight text-black"
+            >
+              Join us for the larges updates and insights!
+            </h2>
+          </div>
+          <div class="w-full lg:w-[55%]">
+            <!-- Input Button -->
+            <div class="flex bg-white p-1">
+              <input
+                type="email"
+                placeholder="Your Email Address"
+                class="w-full px-4 py-3 text-sm"
+              />
+
+              <button class="nav-btn whitespace-nowrap shrink-0">
+                Get Started
+              </button>
+            </div>
+
+            <!-- Checkbox -->
+            <label class="flex items-center gap-2 mt-4 text-xs text-gray-700">
+              <input type="checkbox" class="w-4 h-4 accent-[#FF5C2A]" />
+
+              <span>
+                I agree that my submitted data is being
+                <span class="text-[#FF5C2A]">collected and stored.</span>
+              </span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="bg-[#050517] py-20 px-10 text-white">
+      <div class="custom-container">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <!-- Logo Section -->
+          <div>
+            <img src="images/LOGO (2).png" alt="" class="w-[98px]" />
+            <p class="text-gray-300 mt-6 leading-8 max-w-[280px]">
+              Empowering learners worldwide through accessible, high-quality
+              online education designed to inspire growth, curiosity, and
+              lifelong success in every field of study.
+            </p>
+            <div class="flex gap-4 mt-10 text-sm uppercase font-semibold">
+              <a href="https://www.instagram.com/" class="hover:text-orange-600"
+                >Instagram</a
+              >
+              <a href="https://www.facebook.com/" class="hover:text-orange-600"
+                >Facebook</a
+              >
+              <a href="https://www.linkedin.com/" class="hover:text-orange-600"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+
+          <!-- Links -->
+          <div>
+            <h3 class="text-3xl mb-8">LINKS</h3>
+
+            <ul class="space-y-6 text-sm">
+              <li><a href="#" class="hover:text-orange-600">HOME</a></li>
+              <li><a href="#" class="hover:text-orange-600">SERVICES</a></li>
+              <li><a href="#" class="hover:text-orange-600">ABOUT US</a></li>
+              <li><a href="#" class="hover:text-orange-600">TEACHERS</a></li>
+              <li><a href="#" class="hover:text-orange-600">CONTACT US</a></li>
+            </ul>
+          </div>
+
+          <!-- Products -->
+          <div>
+            <h3 class="text-3xl mb-8">PRODUCTS</h3>
+
+            <ul class="space-y-6 text-sm">
+              <li><a href="#" class="hover:text-orange-600">OVERVIEWS</a></li>
+              <li><a href="#" class="hover:text-orange-600">FEATURES</a></li>
+              <li><a href="#" class="hover:text-orange-600">TUTORIALS</a></li>
+              <li><a href="#" class="hover:text-orange-600">SOLUTIONS</a></li>
+              <li><a href="#" class="hover:text-orange-600">PRICING</a></li>
+            </ul>
+          </div>
+
+          <!-- Contacts -->
+          <div>
+            <h3 class="text-3xl mb-8">CONTACTS</h3>
+            <form>
+              <input
+                type="email"
+                placeholder="E-MAIL"
+                class="w-full bg-transparent border-b border-white pb-4 text-white placeholder:text-white"
+              />
+              <p class="text-xs text-gray-400 mt-4">
+                * Get all the latest offers & info
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <div class="border-t-2 border-white mt-20 pt-8 text-center text-white">
+          © 2021
+          <a href="" class="underline hover:text-orange-500"
+            >Qode Interactive.</a
+          >
+          All Rights Reserved
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

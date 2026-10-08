@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="courses.css" />
+    <title>Our Courses</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="bg-white shadow-md py-4">
+        <div class="container mx-auto px-6 flex items-center justify-between">
+          <!-- Logo -->
+          <div class="logo">
+            <a href="#">
+              <img
+                src="images/LOGO (1).png"
+                alt=""
+                class="w-[98px] h-auto"
+                loading="lazy"
+              />
+            </a>
+          </div>
+
+          <!-- Desktop Nav -->
+          <ul class="hidden lg:flex gap-8 font-medium whitespace-nowrap">
+            <li><a href="index.html" class="hover:text-orange-600">HOME</a></li>
+            <li>
+              <a href="about.html" target="_blank" class="hover:text-orange-600"
+                >ABOUT US</a
+              >
+            </li>
+            <li>
+              <a href="courses.html" class="hover:text-orange-600">COURSES</a>
+            </li>
+            <li><a href="#" class="hover:text-orange-600">INSTRUCTORS</a></li>
+            <li><a href="contact.html" class="hover:text-orange-600">CONTACT US</a></li>
+          </ul>
+
+          <!-- Desktop Button -->
+          <div class="hidden lg:flex">
+            <a href="#" class="nav-btn"> Get In Touch </a>
+          </div>
+
+          <!-- Hamburger -->
+          <button id="navbar-toggle" class="lg:hidden text-2xl">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-navbar" class="hidden fixed inset-0 bg-black/50 z-50">
+        <div
+          id="navbar-slide"
+          class="w-64 h-full bg-white p-6 -translate-x-full transition-transform duration-300"
+        >
+          <ul class="flex flex-col gap-6 font-bold">
+            <li><a href="index.html" class="hover:text-orange-600">HOME</a></li>
+            <li>
+              <a href="about.html" target="_blank" class="hover:text-orange-600"
+                >ABOUT US</a
+              >
+            </li>
+            <li><a href="#" class="hover:text-orange-600">COURSES</a></li>
+            <li><a href="#" class="hover:text-orange-600">INSTRUCTORS</a></li>
+            <li><a href="#" class="hover:text-orange-600">CONTACT US</a></li>
+            <li>
+              <a
+                href="#"
+                class="inline-block bg-orange-500 text-white px-5 py-2 rounded-lg"
+              >
+                Get In Touch
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- banner-heading -->
+
+    <section class="py-20">
+      <div class="custom-container">
+        <div class="text-center">
+          <h1 class="text-[57px] font-semibold leading-tight">
+            Our Popular Courses
+          </h1>
+          <h2 class="text-[30px] font-medium mt-4">
+            Explore professional courses tailored for your growth
+          </h2>
+          <p
+            class="text-[17px] text-[#5A5555] max-w-[1200px] mx-auto mt-6 leading-7"
+          >
+            Skill up with new IT courses training or improve your technical
+            knowledge with the best IT courses. Industry-leading courses
+            developed with expertise and experience to help learners stay ahead
+            in technological innovation. Choosing the best IT job-oriented
+            courses and pre-placement training courses helps you find that dream
+            job and navigate better in a competitive work environment.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COURSES SECTION -->
+
+    <section class="bg-white py-20">
+      <div class="max-w-[1200px] mx-auto px-4">
+        <!-- Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 overflow-hidden">
+          <!-- Card 1 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 transition-transform duration-300 ease-in-out hover:scale-105"
+          >
+            <img src="images/Frame 22(1).png" alt="" class="w-full" />
+            <div class="p-5">
+              <div class="flex justify-between items-center text-[13px]">
+                <div class="flex items-center gap-1 text-[#E6A83E]">
+                  <i class="fa-regular fa-star"></i>
+                  <span class="text-black">5.0 (350 Reviews)</span>
+                </div>
+                <div class="flex items-center gap-1 text-[#f84007]">
+                  <i class="fa-regular fa-clock"></i>
+                  <span class="text-black">4 months</span>
+                </div>
+              </div>
+              <h3 class="text-[21px] leading-8 mt-5 font-medium">
+                Web Design & UI/UX Design with Graphics
+              </h3>
+              <p class="text-[#f84007] font-semibold mt-4 text-[22px]">
+                ₹ 67,500
+              </p>
+              <div class="flex items-center mt-5">
+                <img src="images/Frame 80.svg" class="w-[95px]" alt="" />
+                <span class="ml-3 text-[14px]"> students enrolled </span>
+              </div>
+              <a href="#" class="course-btn mt-6"> Start Learning </a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 transition-transform duration-300 ease-in-out hover:scale-105"
+          >
+            <img src="images/Frame 22 (3).png" alt="" class="w-full" />
+            <div class="p-5">
+              <div class="flex justify-between items-center text-[13px]">
+                <div class="flex items-center gap-1 text-[#E6A83E]">
+                  <i class="fa-regular fa-star"></i>
+                  <span class="text-black">4.0 (200 Reviews)</span>
+                </div>
+                <div class="flex items-center gap-1 text-[#f84007]">
+                  <i class="fa-regular fa-clock"></i>
+                  <span class="text-black">6 months</span>
+                </div>
+              </div>
+              <h3 class="text-[21px] leading-8 mt-5 font-medium">
+                Digital Marketing Course with AI
+              </h3>
+              <p class="text-[#f84007] font-semibold mt-4 text-[22px]">
+                ₹ 70,000
+              </p>
+              <div class="flex items-center mt-5">
+                <img src="images/Frame 80.svg" class="w-[95px]" alt="" />
+                <span class="ml-3 text-[14px]"> students enrolled </span>
+              </div>
+              <a href="#" class="course-btn mt-6"> Start Learning </a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 transition-transform duration-300 ease-in-out hover:scale-105"
+          >
+            <img src="images/Frame 22 (4).png" alt="" class="w-full" />
+            <div class="p-5">
+              <div class="flex justify-between items-center text-[13px]">
+                <div class="flex items-center gap-1 text-[#E6A83E]">
+                  <i class="fa-regular fa-star"></i>
+                  <span class="text-black">5.0 (350 Reviews)</span>
+                </div>
+                <div class="flex items-center gap-1 text-[#f84007]">
+                  <i class="fa-regular fa-clock"></i>
+                  <span class="text-black">6 months</span>
+                </div>
+              </div>
+              <h3 class="text-[21px] leading-8 mt-5 font-medium">
+                HTML Front End Development Course
+              </h3>
+              <p class="text-[#f84007] font-semibold mt-4 text-[22px]">
+                ₹ 60,000
+              </p>
+              <div class="flex items-center mt-5">
+                <img src="images/Frame 80.svg" class="w-[95px]" alt="" />
+                <span class="ml-3 text-[14px]"> students enrolled </span>
+              </div>
+              <a href="#" class="course-btn mt-6"> Start Learning </a>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 transition-transform duration-300 ease-in-out hover:scale-105"
+          >
+            <img src="images/Frame 22 (5).png" alt="" class="w-full" />
+            <div class="p-5">
+              <!-- Rating -->
+              <div class="flex justify-between items-center text-[13px]">
+                <div class="flex items-center gap-1 text-[#E6A83E]">
+                  <i class="fa-regular fa-star"></i>
+                  <span class="text-black">5.0 (350 Reviews)</span>
+                </div>
+                <div class="flex items-center gap-1 text-[#f84007]">
+                  <i class="fa-regular fa-clock"></i>
+                  <span class="text-black">4 months</span>
+                </div>
+              </div>
+              <h3 class="text-[21px] leading-8 mt-5 font-medium">
+                Web Design & UI/UX Design with Graphics
+              </h3>
+              <p class="text-[#f84007] font-semibold mt-4 text-[22px]">
+                ₹ 67,500
+              </p>
+              <div class="flex items-center mt-5">
+                <img src="images/Frame 80.svg" class="w-[95px]" alt="" />
+                <span class="ml-3 text-[14px]"> students enrolled </span>
+              </div>
+              <a href="#" class="course-btn mt-6"> Start Learning </a>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 transition-transform duration-300 ease-in-out hover:scale-105"
+          >
+            <img src="images/Frame 22 (6).png" alt="" class="w-full" />
+            <div class="p-5">
+              <div class="flex justify-between items-center text-[13px]">
+                <div class="flex items-center gap-1 text-[#E6A83E]">
+                  <i class="fa-regular fa-star"></i>
+                  <span class="text-black">4.0 (200 Reviews)</span>
+                </div>
+                <div class="flex items-center gap-1 text-[#f84007]">
+                  <i class="fa-regular fa-clock"></i>
+                  <span class="text-black">6 months</span>
+                </div>
+              </div>
+              <h3 class="text-[21px] leading-8 mt-5 font-medium">
+                Digital Marketing Course with AI
+              </h3>
+              <p class="text-[#f84007] font-semibold mt-4 text-[22px]">
+                ₹ 70,000
+              </p>
+              <div class="flex items-center mt-5">
+                <img src="images/Frame 80.svg" class="w-[95px]" alt="" />
+                <span class="ml-3 text-[14px]"> students enrolled </span>
+              </div>
+              <a href="#" class="course-btn mt-6"> Start Learning </a>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 transition-transform duration-300 ease-in-out hover:scale-105"
+          >
+            <img src="images/Frame 22 (7).png" alt="" class="w-full" />
+            <div class="p-5">
+              <div class="flex justify-between items-center text-[13px]">
+                <div class="flex items-center gap-1 text-[#E6A83E]">
+                  <i class="fa-regular fa-star"></i>
+                  <span class="text-black">5.0 (350 Reviews)</span>
+                </div>
+                <div class="flex items-center gap-1 text-[#f84007]">
+                  <i class="fa-regular fa-clock"></i>
+                  <span class="text-black">6 months</span>
+                </div>
+              </div>
+              <h3 class="text-[21px] leading-8 mt-5 font-medium">
+                HTML Front End Development Course
+              </h3>
+              <p class="text-[#f84007] font-semibold mt-4 text-[22px]">
+                ₹ 60,000
+              </p>
+              <div class="flex items-center mt-5">
+                <img src="images/Frame 80.svg" class="w-[95px]" alt="" />
+                <span class="ml-3 text-[14px]"> students enrolled </span>
+              </div>
+              <a href="#" class="course-btn mt-6"> Start Learning </a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-20">
+          <a href="" class="see-btn text-[20px]">See More...</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="bg-[#050517] py-20 px-10 text-white">
+      <div class="custom-container">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <!-- Logo Section -->
+          <div>
+            <img src="images/LOGO (2).png" alt="" class="w-[98px]" />
+            <p class="text-gray-300 mt-6 leading-8 max-w-[280px]">
+              Empowering learners worldwide through accessible, high-quality
+              online education designed to inspire growth, curiosity, and
+              lifelong success in every field of study.
+            </p>
+            <div class="flex gap-4 mt-10 text-sm uppercase font-semibold">
+              <a href="https://www.instagram.com/" class="hover:text-orange-600"
+                >Instagram</a
+              >
+              <a href="https://www.facebook.com/" class="hover:text-orange-600"
+                >Facebook</a
+              >
+              <a href="https://www.linkedin.com/" class="hover:text-orange-600"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+
+          <!-- Links -->
+          <div>
+            <div class="text-3xl mb-8">LINKS</div>
+
+            <ul class="space-y-6 text-sm">
+              <li><a href="#" class="hover:text-orange-600">HOME</a></li>
+              <li><a href="#" class="hover:text-orange-600">SERVICES</a></li>
+              <li><a href="#" class="hover:text-orange-600">ABOUT US</a></li>
+              <li><a href="#" class="hover:text-orange-600">TEACHERS</a></li>
+              <li><a href="#" class="hover:text-orange-600">CONTACT US</a></li>
+            </ul>
+          </div>
+
+          <!-- Products -->
+          <div>
+            <div class="text-3xl mb-8">PRODUCTS</div>
+
+            <ul class="space-y-6 text-sm">
+              <li><a href="#" class="hover:text-orange-600">OVERVIEWS</a></li>
+              <li><a href="#" class="hover:text-orange-600">FEATURES</a></li>
+              <li><a href="#" class="hover:text-orange-600">TUTORIALS</a></li>
+              <li><a href="#" class="hover:text-orange-600">SOLUTIONS</a></li>
+              <li><a href="#" class="hover:text-orange-600">PRICING</a></li>
+            </ul>
+          </div>
+
+          <!-- Contacts -->
+          <div>
+            <div class="text-3xl mb-8">CONTACTS</div>
+            <form>
+              <input
+                type="email"
+                placeholder="E-MAIL"
+                class="w-full bg-transparent border-b border-white pb-4 text-white placeholder:text-white"
+              />
+              <p class="text-xs text-gray-400 mt-4">
+                * Get all the latest offers & info
+              </p>
+              <p class="mt-5 max-w-[130px]">Germany —<br>
+                785 15h Street,
+                Office 47 Berlin,
+                De 81566</p>
+            </form>
+          </div>
+        </div>
+
+        <div class="border-t-2 border-white mt-20 pt-8 text-center text-white">
+          © 2021
+          <a href="" class="underline hover:text-orange-500"
+            >Qode Interactive.</a
+          >
+          All Rights Reserved
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
